@@ -8,6 +8,5 @@
 <h2>Установка</h2>
 <ol>
     <li>Клонировать репозиторий <code>git clone https://github.com/N0v3x/BST_Task.git</code></li>
-    <li>Внутри директории <code>composer install</code></li>
-    <li>Внутри директории <code>yii init</code></li>    
+    <li>Внутри директории <code>composer install</code></li>      
 </ol>
