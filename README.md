@@ -10,3 +10,11 @@
     <li>Клонировать репозиторий <code>git clone https://github.com/N0v3x/BST_Task.git</code></li>
     <li>Внутри директории <code>composer install</code></li>      
 </ol>
+
+<h2>Ответы на задние по SQL</h2>
+<ol>
+    <li>SELECT * FROM products WHERE price > 50</li>
+    <li>DELETE FROM products WHERE kind != 0</li> 
+    <li>SELECT COUNT(id) as rows_count, AVG(price)  FROM products</li> 
+    <li>SELECT * INTO products_1 FROM productS WHERE id%2 != 0;( Для MySQL: CREATE TABLE products_1 SELECT * FROM products WHERE id%2 != 0 )</li>    
+</ol>
