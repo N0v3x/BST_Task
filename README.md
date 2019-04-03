@@ -16,5 +16,7 @@
     <li>SELECT * FROM products WHERE price > 50</li>
     <li>DELETE FROM products WHERE kind != 0</li> 
     <li>SELECT COUNT(id) as rows_count, AVG(price)  FROM products</li> 
-    <li>SELECT * INTO products_1 FROM productS WHERE id%2 != 0;( Для MySQL: CREATE TABLE products_1 SELECT * FROM products WHERE id%2 != 0 )</li>    
+    <li>SELECT * INTO products_1 FROM productS WHERE id%2 != 0;
+        <br/>
+       ( Для MySQL: CREATE TABLE products_1 SELECT * FROM products WHERE id%2 != 0 )</li>    
 </ol>
