@@ -16,6 +16,14 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '8QROQ51CTwPGE5U6v14l00anyc5hMbvy',
         ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'enableStrictParsing' => false,
+            'rules' => [
+                '/<from:\d{1,10}>/<to:\d{1,10}>' => '/'
+            ]
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
@@ -34,7 +42,7 @@ $config = [
             'useFileTransport' => true,
         ],
         'log' => [
-            'traceLevel' => YII_DEBUG ? 3 : 0,
+            'traceLevel' => YII_DEBUG ?3 : 0,
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
